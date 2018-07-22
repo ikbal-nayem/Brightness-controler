@@ -8,7 +8,6 @@ while True:
 		with open("brightness", 'r') as f:
 			old_value = f.read()
 			print('Current brightness is {}'.format(old_value))
-		f.close()
 
 		value = int(input('Put your new value here : '))
 		if value < 50 or value > 1000:
@@ -17,7 +16,6 @@ while True:
 			break
 		with open('brightness', 'w') as f:
 			f.write(str(value))
-		f.close()
 	except:
 		print('\n\tSetting done!!!')
 		break
