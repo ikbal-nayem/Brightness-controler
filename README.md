@@ -3,12 +3,20 @@
 For linux only
 ---
 
-Make the python file executable:
+*python3 should be install in your machine*
+
+step 1: Download the git file.
+
+   `https://github.com/ikbal-nayem/Brightness-controler.git`
+   
+   `cd Brightness-controler`
+
+Step 2: Make the python file executable.
 
    `chmod +x bn.py`
 
-Run the code:
+Step 3: Run the code.
 
    `./bn.py`
 
-_It will show you the current value of brightness.then write the new value of brightness._
+*Now you will be able to control your brightness using `ctrl` + `left` or `right` button.*
