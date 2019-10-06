@@ -1,6 +1,6 @@
 # Brightness-controler  
 
-For linux only
+This script will work only in linux OS
 ---
 
 *python3 should be install in your machine*
