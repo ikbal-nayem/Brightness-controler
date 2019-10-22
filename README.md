@@ -3,7 +3,9 @@
 This script will work only in linux OS
 ---
 
-*python3 should be install in your machine*
+>Sometimes brightness controller does not wonk after intalling kali in laptop. This script may help you to control your brightness with shortcut keys.  
+
+*python3 have to install in your machine*
 
 step 1: Download the git file.
 
